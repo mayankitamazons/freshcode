@@ -1,0 +1,89 @@
+<html>
+<head>
+<style>
+#signupdiv
+{
+background-color:ALICEBLUE;
+width:600px;
+height:600px;
+margin-left:680px;
+border-radius:20px;
+margin-top:150px;
+}
+#signupimage
+{
+margin-left:250px;
+width:100px;
+height:100px;
+}
+#signupheading
+{
+color:LIMEGREEN;
+font-size:18px;
+font-family:"Times New Roman",Times,serif;
+text-transform:uppercase;
+margin-left:180px; 
+}
+#inputfield
+{
+width:500px;
+height:60px;
+margin-left:60px;
+border-radius:40px;
+border:1px soild green;
+padding:20px;
+}
+#btn
+{
+background-color:orange;
+width:150px;
+height:50px;
+border-radius:20px;
+border:1px solid orange;
+margin-left:220pX;
+color:white;
+font-size:20px;
+text-transform:uppercase;
+font-size:20px;
+}
+#btn:hover
+{
+opacity:0.4;
+}
+#userheading
+{
+font-size:20px;
+font-family:"Times New Roman",Times,serif;
+font-weight:bold;
+margin-left:230px;
+}
+#link
+{
+text-decoration:none;
+color:CORNFLOWERBLUE;
+font-size:18px;
+font-family:Times New Roman",Times,serif;
+font-weight:bold;
+text-transform:uppercase;
+margin-left:250px;
+}
+</style>
+</head>
+<body>
+<div id="signupdiv">
+<br><br>
+<h1 id="signupheading">sign up to fresh brigade</h1>
+<img src="add-user-male.png" id="signupimage">
+<br><br>
+<form action="signupapi.php" method="post">
+<input type="number" name="username" placeholder="enter your phone number" id="inputfield" required>
+<br><br><br>
+<input type="password" name="password" placeholder="choose  your password" id="inputfield" required>
+<br><br><br>
+<input type="submit" value="signup" name="submit" id="btn">
+</form>
+<h1 id="userheading">have a account?</h1>
+<a href="login.html" id="link">log in</a>
+</div>
+</body>
+</html>

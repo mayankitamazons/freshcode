@@ -1,0 +1,18 @@
+.ss_input {
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  border: 0;
+}
+
+.select-search {
+  max-width: 200px;
+  position: relative;
+  z-index: 2;
+}
+
+.select-search > select {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}

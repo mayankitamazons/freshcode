@@ -1,0 +1,13 @@
+[
+	{
+		"name": "FreshBrigade Server",
+		"host": "freshbrigade.com",
+		"port": 21,
+		"type": "ftp ,sftp",
+		"username": "nirmal@freshbrigade.com",
+		"password": "Kola1993@",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	}
+]
